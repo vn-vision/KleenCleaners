@@ -28,11 +28,6 @@
                         <li class="nav-item"><a class="nav-link" href="login.jsp">Login</a></li>
                     <% } else { %>
                         <li class="nav-item"><a class="nav-link" href="dashboard.jsp">Dashboard</a></li>
-                        <li class="nav-item"><a class="nav-link" href="order.jsp">Orders</a></li>
-                        <li class="nav-item"><a class="nav-link" href="receipts.jsp">Receipts</a></li>
-                        <li class="nav-item"><a class="nav-link" href="order-history.jsp">Order-History</a></li>
-                        <li class="nav-item"><a class="nav-link" href="LaundryListServlet">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="feedback.jsp">Feedback</a></li>
                         <li class="nav-item"><a class="nav-link text-danger" href="logout.jsp">Logout</a></li>
                     <% } %>
                 </ul>
